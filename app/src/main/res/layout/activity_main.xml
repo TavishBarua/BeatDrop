@@ -27,15 +27,81 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:id="@+id/main_layout_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_repeat_off"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_repeat_off"
+                android:scaleType="fitXY"
+                android:background="@null"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/btn_repeat_all"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_repeat_all"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                android:background="@null"
+                />
+            <ImageButton
+                android:id="@+id/btn_repeat_one"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_repeat_one"
+
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                android:background="@null"
+                />
+            <ImageButton
+                android:id="@+id/btn_shuffle_off"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_shuffle_off"
+                android:scaleType="fitXY"
+                android:background="@null"
+
+                />
+            <ImageButton
+                android:id="@+id/btn_shuffle_on"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_shuffle_on"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                android:background="@null"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main_layout_four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/sub_main_layout_four"
+                android:id="@+id/sub_main_layout_five"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -61,8 +127,11 @@
 
             </LinearLayout>
 
+
+
+
             <LinearLayout
-                android:id="@+id/sub_main_layout_five"
+                android:id="@+id/sub_main_layout_six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
