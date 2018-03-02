@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BeatDrop</string>
+
+    <!--Margin Definition-->
+    <string name="minor_margin">5dp</string>
+    <string name="medium_margin">10dp</string>
+    <string name="major_margin">15dp</string>
+    <string name="huge_margin">20dp</string>
 </resources>

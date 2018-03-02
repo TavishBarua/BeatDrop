@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BeatDrop.iml" filepath="$PROJECT_DIR$/BeatDrop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BeatDrop.iml" filepath="$PROJECT_DIR$/.idea/BeatDrop.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\BeatDrop\BeatDrop.iml" filepath="D:\AndroidStudioProjects\BeatDrop\BeatDrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
