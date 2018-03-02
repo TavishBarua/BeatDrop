@@ -48,7 +48,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
-                    android:textColor="custom_gray" />
+                    android:textColor="@color/custom_gray" />
 
                 <com.example.pawan.beatdrop.CustomMethods.CustomTexts.TextLatoThin
                     android:id="@+id/songTotalDurationLabel"
@@ -57,7 +57,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
-                    android:textColor="custom_gray" />
+                    android:textColor="@color/custom_gray" />
 
             </LinearLayout>
 
